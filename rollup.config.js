@@ -9,10 +9,10 @@ import postcss from 'rollup-plugin-postcss';
 const production = !process.env.ROLLUP_WATCH
 
 export default {
-    input: 'src/test.js',
+    input: 'src/index.js',
     output: {
         file: `public/components.js`,
-        format: 'iife',
+        format: 'cjs',
         name: 'components',
     },
     plugins: [
@@ -30,6 +30,6 @@ export default {
         !production && livereload('public'),
     ],
     watch: {
-		clearScreen: false
-	}
+        clearScreen: false
+    }
 }
