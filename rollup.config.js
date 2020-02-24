@@ -11,7 +11,7 @@ const production = !process.env.ROLLUP_WATCH
 export default {
     input: 'src/index.js',
     output: {
-        file: `public/components.js`,
+        file: `src/dist.js`,
         format: 'cjs',
         name: 'components',
     },

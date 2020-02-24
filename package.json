@@ -47,5 +47,5 @@
     "url": "https://github.com/thomas-lowry/figma-plugin-ds-svelte/issues"
   },
   "homepage": "https://github.com/thomas-lowry/figma-plugin-ds-svelte#readme",
-  "main": "./src/index.js"
+  "main": "./src/dist.js"
 }
