@@ -128,7 +128,7 @@
       <Icon {iconName} {iconText} {spin} color="black3" />
     </div>
     <input
-      type="input"
+      type="number"
       bind:value
       {id}
       {name}
@@ -140,7 +140,7 @@
 {:else}
   <div class="input {className}">
     <input
-      type="input"
+      type="number"
       bind:value
       {id}
       {name}

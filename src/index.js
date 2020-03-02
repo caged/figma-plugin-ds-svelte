@@ -19,6 +19,8 @@ import SelectMenu from './components/SelectMenu/index.svelte';
 import Switch from './components/Switch/index.svelte';
 import Textarea from './components/Textarea/index.svelte';
 import Type from './components/Type/index.svelte';
+import Number from './components/Number/index.svelte';
+
 
 //Icons
 import IconAdjust from './icons/adjust.svg';
